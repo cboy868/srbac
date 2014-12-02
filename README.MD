@@ -38,8 +38,16 @@
 * 注意 1 要提前引入jquery 2.为角色选择用户页面，可能需要 common.css 即可
 
 ## 图例
-![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
-
+* 权限项添加
+![image](https://github.com/cboy868/srbac/blob/master/screenshots/auth.png)
+* 角色管理
+![image](https://github.com/cboy868/srbac/blob/master/screenshots/role.png)
+* 分配权限
+![image](https://github.com/cboy868/srbac/blob/master/screenshots/assign.png)
+* 分配用户角色
+![image](https://github.com/cboy868/srbac/blob/master/screenshots/assignuser.png)
+* 子角色
+![image](https://github.com/cboy868/srbac/blob/master/screenshots/child.png)
 
 #### 联系方式
 
