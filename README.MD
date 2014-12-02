@@ -10,9 +10,8 @@
 
 
 ## 使用说明
------
 
-* 确保yii2 rbac模块已经可以使用, 在backend配置文件main.php中加入如下代码
+1. 确保yii2 rbac模块已经可以使用, 在backend配置文件main.php中加入如下代码
 ```php
 'components' => [
         'authManager' => [//引入权限管理
@@ -20,8 +19,8 @@
         ]
     ]
 ```
-* 下载到 backend的modules目录，如没有，则新加
-* 在backend.php配置文件main.php中加引入此module
+2. 下载到 backend的modules目录，如没有，则新加
+3. 在backend.php配置文件main.php中加引入此module
 ```php
 'modules' => [
         'srbac' => [ //引入模块
@@ -29,13 +28,13 @@
         ]
     ]
 ```
-* 如果想把其它应用比如frontend下的控制器也加入到权限控制中，则需要修改srbac下配置文件
+4. 如果想把其它应用比如frontend下的控制器也加入到权限控制中，则需要修改srbac下配置文件
 ```php
  'srbacPath' => [ //其它
          'frontend\controllers'
      ],
 ```
-* 访问 /backend/web/index.php?r=srbac
+5. 访问 /backend/web/index.php?r=srbac
 
 * 注意 1 要提前引入jquery 2.为角色选择用户页面，可能需要 common.css 即可
 
