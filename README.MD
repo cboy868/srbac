@@ -1,8 +1,7 @@
 #srbac
 
-
 ## 功能描述
-----
+
 1.选择需要接受权限控制的功能。所以权限项已经自动生成
 2.添加角色
 3.为角色添加可操作的功能(在第一步中选择的功能中选择)。
@@ -39,9 +38,9 @@
 * 注意 1 要提前引入jquery 2.为角色选择用户页面，可能需要 common.css 即可
 
 ## 图例
-
+![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
 
 
 #### 联系方式
-----
-cboy868@163.com 其
+
+cboy868@163.com
