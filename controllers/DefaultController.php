@@ -6,8 +6,8 @@ use Yii;
 use yii\web\Controller;
 use yii\helpers\ArrayHelper;
 use yii\web\BadRequestHttpException;
-use common\helpers\Files;
-
+//use common\helpers\Files;
+use backend\modules\srbac\helpers\Files;
 /**
  * 角色管理主控制器
  */
